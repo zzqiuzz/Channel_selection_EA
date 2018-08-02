@@ -38,13 +38,7 @@ ordered_pop(popsize,chromosize)=0;
 for i=1:popsize
     ordered_pop(i,:)=pop(I(i),:);
 end
-%  for i=1:popsize%计算种群累计适应度
-%     if i==1
-%         error_table(i) = error_table(i) + error(i);
-%     else
-%         error_table(i) = error_table(i-1) + error(i);
-%     end
-% end
+
 
 
 
